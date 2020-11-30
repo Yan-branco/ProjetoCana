@@ -3,11 +3,22 @@
 | Item | Local | Conteúdo |  |
 | --- | --- | --- | --- |
 | 2.1 | https://github.com/Yan-branco/ProjetoCana | repositório | ✅ |
-| 2.2 |  | site | ✅ |
+| 2.2 | https://yan-branco.github.io/ProjetoCana/ | site | ✅ |
 | 2.3 | https://github.com/Yan-branco/ProjetoCana/blob/main/README.md | integrantes | ✅ |
 | 2.4 | Página Produtos | tabela com valores | ✅ |
 | 2.5 | Todas as páginas (div) | background-image | ✅ |
 
+
+<br>
+
+| Item | Local | Conteúdo |  |
+| --- | --- | --- | --- |
+| | https://github.com/Yan-branco/ProjetoCana | repositório | ✅ |
+| | https://yan-branco.github.io/ProjetoCana/ | site | ✅ |
+| | https://github.com/Yan-branco/ProjetoCana/blob/main/README.md | integrantes | ✅ |
+| 1.0 | Página produtos | Correção de erros | ✅ |
+| 2.1 | Página Fale | Formulário | ✅ |
+| 2.2 | Todas as páginas | Media queries | ✅ |
 
 <br>
 
