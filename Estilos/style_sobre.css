@@ -49,12 +49,3 @@
     color: var(--cor_backG);
 }
 
-@media (max-width: 600px){
-    .cana{
-        margin-bottom: 20px;
-        margin-top: 20px;
-    }
-    .img1, .img2{
-        width: 90%;
-    }
-}
