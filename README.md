@@ -36,6 +36,18 @@ Entrega 06
 | 2.1 | Página Fale | Validar as informações do usuário | ✅ |
 | 2.2 | Página Produtos | Botão para mostrar/esconder a tabela | ✅ |
 
+<br>
+
+Entrega 07
+
+| Item | Local | Conteúdo |  |
+| --- | --- | --- | --- |
+| | https://github.com/Yan-branco/ProjetoCana | repositório | ✅ |
+| | https://yan-branco.github.io/ProjetoCana/ | site | ✅ |
+| | https://github.com/Yan-branco/ProjetoCana/blob/main/README.md | integrantes | ✅ |
+| 2.1 | Página Index e Sobre | sistema de grid do bootstrap | ✅ |
+| 2.2 | Página Index e Sobre | Diferentes componentes de bootstrap | ✅ |
+
 
 # Intregrantes
 | Nome | Matricula |
