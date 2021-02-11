@@ -41,17 +41,17 @@
     background-color: var(--cor_hover_box);
     color: var(--cor_font_head);
     border-style: none  ;
-    height: 70px;
-    width: 100px;
+    height: 90px;
+    width: 110px;
+    justify-content: center;
     font-weight: bold;
     transition: 0.8s;
 }
 .tabela:hover{
     background-color: var(--cor_box);
+    border-style: none;
 }
-#el{
-    display:none;
-}
+
 table tr:nth-child(even){background-color: var(--cor_hover_box);}
 .taball{
     padding-top: 20px;
