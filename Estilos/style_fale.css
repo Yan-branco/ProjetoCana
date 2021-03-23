@@ -86,7 +86,7 @@ input, textarea {
     transition: 1s;
 }
 input:hover , textarea:hover { 
-    background-color: var(--cor_hover_box); 
+    background-color:#bababa; 
     color: var(--cor_backG);
 
 }
