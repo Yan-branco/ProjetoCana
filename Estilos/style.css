@@ -107,7 +107,7 @@ body , ul, li {
 
 .menu {
     display: flex;
-    margin-left: 10px;
+    margin-left: 13px;
 }
 
 .menu a{
@@ -121,6 +121,7 @@ body , ul, li {
 }
 
 .menu li{
+    min-width: 60px;
     width: auto;
     height: 70px;
     display: flex;
