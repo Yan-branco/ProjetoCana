@@ -3,7 +3,7 @@
     display: flex;
 	justify-content: center;
     align-items: center;
-    padding-top:30px;
+    padding-top: 30px;
     background-color: var(--cor_font_head);
 }
 
@@ -130,9 +130,31 @@ form label {
 
 @media (max-width: 600px){
     textarea {
-        width: 350px;
+        width: 80%;
     }
     .textoTittle h2{
         font-size: 1.0rem;
+    }
+    form{
+        width: 80%;
+    }
+    h2{
+        padding: 30px 40px 0 40px;
+        font-size: 20px;
+    }
+}
+@media (max-width: 330px){
+    h2{
+        padding: 30px 20px 0 20px;
+        font-size: 15px;
+    }
+    form input, form label{
+        width: 75%;
+    }
+    form h1{
+        font-size: 20px;
+    }
+    textarea {
+        width: 75%;
     }
 }

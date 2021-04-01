@@ -97,7 +97,6 @@ body , ul, li {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    min-width: 390px;
     width: auto;
     height: 70px; 
     position: sticky;
@@ -152,6 +151,27 @@ body{
     color: #000000;
 }
 
+.btContent{
+    display: flex;
+    justify-content: center;
+    padding: 25px 0 0 0;
+}
+
+.bt {
+    background-color: var(--cor_box);
+    color: var(--cor_backG);
+    border-radius: 4px;
+    font-family: Verdana;
+    font-weight: bold;
+    font-size: 15px;
+    padding: 13px 15px;
+    text-decoration: none;
+    transition: 0.6s;
+}
+
+.bt:hover{
+    background-color: var(--cor_hover_box);
+}
 .bot{
     width: auto;
     height: 50px;
@@ -172,12 +192,6 @@ footer{
     border-top: 50px solid var(--cor_box);
 }
 
-footer#pagSobre{
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-
 .imag{
     margin-right: 10px;
     vertical-align: middle;
@@ -189,6 +203,9 @@ footer#pagSobre{
         width: auto;
         border-radius: 0;
     }
+    .bt{
+        font-size: 13px;
+    }
 }
 
 @media (max-width: 750px){
@@ -196,15 +213,29 @@ footer#pagSobre{
         padding-left: 90px;
         padding-right: 90px;
     }
+    .bt{
+        font-size: 12px;
+    }
 }
 
 @media (max-width: 600px){
     footer{
-        font-size: 12px;
-        padding: 20px 34px 20px 34px;
+        font-size: 10px;
+        padding: 20px;
     }
     .caixaTexto, .caixaTexto2{
         padding-left: 40px;
         padding-right: 40px;
     }  
+    .cabecalho{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 330px){
+    .menu a{
+        padding-left: 3px;
+        padding-right: 3px;
+        font-size: 10pt;
+    }
 }

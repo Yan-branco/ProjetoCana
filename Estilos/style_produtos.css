@@ -60,7 +60,7 @@ CAPTION#lename{
 }
 
 table{
-    width: 40%;
+    width: 100%;
 }
 
 table caption{
@@ -118,4 +118,14 @@ th{
     }
 }
 
-
+@media (max-width: 330px){
+    table{
+        width: 10%;
+    }
+    .th01, .td1, .td2{
+        display: none;
+    }
+    thead, tbody{
+        font-size: 14px;
+    }
+}
