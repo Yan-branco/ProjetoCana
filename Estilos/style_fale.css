@@ -1,15 +1,3 @@
-:root{
-    --cor_font_head:#e0ffff;
-    --cor_backG:#e0ffff;
-    --cor_font_hover_head:#7e9292;
-    --cor_font_text: #012b01;
-    --cor_box: #32cd32;
-    --cor_hover_box: #228B22;
-    --fonte_head: Arial;
-    --fonte_text: Garamond;
-}
-
-
 .redes{
     flex-wrap: wrap;
     display: flex;
@@ -18,6 +6,13 @@
     padding-top:30px;
     background-color: var(--cor_font_head);
 }
+
+h2{
+    padding: 30px 0 10px 0;
+    text-align: center;
+    color: black;
+}
+
 .ext{
     margin-bottom: 30px;
     margin-left: 30px;
@@ -28,25 +23,31 @@
     background-color: #32cd32;
     transition: background-color 0.8s;
 }
+
 .ext:hover{
     background-color: #228B22;
     box-shadow: 3px 3px 6px #012b01;
 }
+
 .ext:hover p{
     color: var(--cor_backG);
 }
+
 .ext p{
     color: var(--cor_font_text) ;
     font-size: 1.8em;
     padding-bottom: 10px;
 }
+
 .ext img{
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
 .textoTittle h2{
     font-size: 1.6em;
 }
+
 form {
     font-family: var(--fonte_text);
     font-size: 15px;
@@ -57,6 +58,7 @@ form {
     padding: 10px;
     border-radius: 10px;
 }
+
 .cont_form{
     margin-bottom: 30px;
     flex-direction: row;
@@ -64,6 +66,7 @@ form {
     display: flex;
     justify-content: center;
 }
+
 .caixaTexto{
     margin-left: 40px;
     background-color: var(--cor_box);
@@ -71,11 +74,13 @@ form {
     color:var(--cor_font_head);
     border-radius: 10px;
 }
+
 .box {
     margin-bottom: 20px;
     margin-left: 20px;
     color: var(--cor_font_head);
 }
+
 input, textarea {
     width: 200px;
     padding: 10px;
@@ -85,18 +90,22 @@ input, textarea {
     border-style: none;
     transition: 1s;
 }
+
 input:hover , textarea:hover { 
     background-color:#bababa; 
     color: var(--cor_backG);
 
 }
+
 .enviar:hover , imput:focus { 
     background-color: rgb(15, 32, 31); 
     font-weight: bold;
 }
+
 .add{
     background-color: var(--cor_backG);
 }
+
 .enviar {
     background-color: var(--cor_hover_box);
     color: var(--cor_font_head);
@@ -105,12 +114,14 @@ input:hover , textarea:hover {
     font-weight: bold;
     border-radius: 5px;
 }
+
 textarea {
     width: 400px;
     height: 120px;
     line-height: 20px;
     max-width: 400px;
 }
+
 form label {
     margin-left: 20px;
     color: var(--cor_font_head);
@@ -122,6 +133,6 @@ form label {
         width: 350px;
     }
     .textoTittle h2{
-        font-size: 1.2em;
+        font-size: 1.0rem;
     }
 }

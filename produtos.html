@@ -4,91 +4,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-compatible" content="ie=edge">
+    <title>Açucar Village</title>
+    <link rel="icon" type="imagem/png" href="img/logo.png" />
     <link rel="stylesheet" href="Estilos/style.css" />
     <link rel="stylesheet" href="Estilos/style_produtos.css" />
-    <link rel="icon" type="imagem/png" href="img/logo.png" />
-    <title>Açucar Village</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css%22%3E"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js%22%3E"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js%22%3E"></script>
 </head>
 
 <body>
+    <header class="cabecalho">
+        <nav>
+                <ul class="menu">
+                    <li><a href="index.html" class="imgHome"> <img src="img/logo.png" alt="HOME" width="40PX" height="40px"></a></li>
+                    <li><a href="sobre.html">SOBRE</a></li>
+                    <li><a href="produtos.html">PRODUTOS</a></li>
+                    <li><a href="fale.html">FALE CONOSCO</a></li>
+                </ul>
+        </nav>
+    </header>
     <section class = "cabeca">
         <div class = "logo">
-            <a href="index.html"><img src="img/logo.png" alt="HOME" width=100% ></a>
-            <h1>AÇUCAR VILLAGE</h1>
+            <a><img src="img/logo.png" alt="HOME" width=100% ></a>
+            <h1 id="TextKey">AÇUCAR VILLAGE</h1>
         </div> 
-    </section>
-
-    <header class="cabecalho">
-        <a href="index.html" class="imgHome"> <img src="img/home.png" alt="HOME" width="50PX" height="50px"></a>
-        <nav>
-            <ul class="menu">
-                <li><a href="sobre.html">SOBRE</a></li>
-                <li><a href="produtos.html"><b>PRODUTOS</b></a></li>
-                <li><a href="fale.html">FALE CONOSCO</a></li>
-            </ul>
-        </nav>
-
-    </header>
-    <section class = "textoTittle">
-        <h2>Conheça nossos produtos:</h2>
-       
-    </section>
-    <section class="produtos">
-         <!--bandeja-->
-        <div class="produto" style="position: relative;" top = "0px" left="0px">
-            <img src="img/bandeja.png" alt="bandeja do bagaço" width="170px" height="170px" >
-            <p class="nome_produto">bandeja do bagaço</p>
-
-            <div class="produto_desc_box" style="position:absolute; top:0px; left:0px;">
-                <h3 class="produto_desc">BANDEJA DO BAGAÇO</h3>
-                <hr>
-                <P class="produto_desc">Uma bandeja biodegradavel criada apartir do bagaço da cana de açucar. utilizada para preservar carnes, frios, dentre outros alimentos.</P>
-            </div>
-        </div>
-
-         <!--embalagem-->
-        <div class="produto" style="position: relative;" top = "0px" left="0px" >
-            <img src="img/embalagem.png" alt="embalagem verde" width="170px" height="170px" >
-            <p class="nome_produto">embalagem verde</p>
-
-            <div class="produto_desc_box" style="position:absolute; top:0px; left:0px;">
-                <h3 class="produto_desc">EMBALAGEM VERDE</h3>
-                <hr>
-                <P class="produto_desc">Embalagens feitas com plastico verde, um plastico alternativo derivado do etanol, biodegradavel e possui um peso menor que o plastico convencional.</P>
-            </div>
-        </div>
-
-         <!--engradado-->
-        <div class="produto"  style="position: relative;" top = "0px" left="0px">
-            <img src="img/engradado.png" alt="engradado do bagaço" width="170px" height="170px" >
-            <p class="nome_produto">engradado do bagaço</p>
-
-            <div class="produto_desc_box" style="position:absolute; top:0px; left:0px;">
-                <h3 class="produto_desc">ENGRADADO DO BAGAÇO</h3>
-                <hr>
-                <P class="produto_desc">Engradados feitos com o prenssado do bagaço da cana, são leves e duradouros.</P>
-            </div>
-        </div>
-
-        <!--canudo-->
-        <div class="produto" style="position: relative;" top = "0px" left="0px">
-            <img src="img/canudo.png" alt="canudo verde" width="170px" height="170px">
-            <p class="nome_produto">canudo verde</p>
-        
-            <div class="produto_desc_box" style="position:absolute; top:0px; left:0px;">
-                <h3 class="produto_desc">CANUDO VERDE</h3>
-                <hr >
-                <p class="produto_desc">Canudos feitos com plastico verde, são biodegradaveis e salvam o planeta.</p>
-            </div>
-        </div>
-
-           
     </section> 
-    <div class = "mid">
-        <input type="submit" class="tabela" onclick="tabela();" value="TABELA" />
-    </div>
     
-    <div id = "el">
+    <div class="conteinerCont">
+
+        <h2>CONHEÇA NOSSOS PRODUTOS:</h2>
+
+        <section class="produtos">
+            <!--bandeja-->
+            <div class="produto" style="position: relative;" top = "0px" left="0px">
+                <img src="img/bandeja.png" alt="bandeja do bagaço" width="170px" height="170px" >
+                <p class="nome_produto">bandeja do bagaço</p>
+    
+                <div class="produto_desc_box" style="position:absolute; top:0px; left:0px;">
+                    <h3 class="produto_desc">BANDEJA DO BAGAÇO</h3>
+                    <hr>
+                    <P class="produto_desc">Uma bandeja biodegradavel criada apartir do bagaço da cana de açucar. utilizada para preservar carnes, frios, dentre outros alimentos.</P>
+                </div>
+            </div>
+    
+            <!--embalagem-->
+            <div class="produto" style="position: relative;" top = "0px" left="0px" >
+                <img src="img/embalagem.png" alt="embalagem verde" width="170px" height="170px" >
+                <p class="nome_produto">embalagem verde</p>
+    
+                <div class="produto_desc_box" style="position:absolute; top:0px; left:0px;">
+                    <h3 class="produto_desc">EMBALAGEM VERDE</h3>
+                    <hr>
+                    <P class="produto_desc">Embalagens feitas com plastico verde, um plastico alternativo derivado do etanol, biodegradavel e possui um peso menor que o plastico convencional.</P>
+                </div>
+            </div>
+    
+            <!--engradado-->
+            <div class="produto"  style="position: relative;" top = "0px" left="0px">
+                <img src="img/engradado.png" alt="engradado do bagaço" width="170px" height="170px" >
+                <p class="nome_produto">engradado do bagaço</p>
+    
+                <div class="produto_desc_box" style="position:absolute; top:0px; left:0px;">
+                    <h3 class="produto_desc">ENGRADADO DO BAGAÇO</h3>
+                    <hr>
+                    <P class="produto_desc">Engradados feitos com o prenssado do bagaço da cana, são leves e duradouros.</P>
+                </div>
+            </div>
+    
+            <!--canudo-->
+            <div class="produto" style="position: relative;" top = "0px" left="0px">
+                <img src="img/canudo.png" alt="canudo verde" width="170px" height="170px">
+                <p class="nome_produto">canudo verde</p>
+            
+                <div class="produto_desc_box" style="position:absolute; top:0px; left:0px;">
+                    <h3 class="produto_desc">CANUDO VERDE</h3>
+                    <hr >
+                    <p class="produto_desc">Canudos feitos com plastico verde, são biodegradaveis e salvam o planeta.</p>
+                </div>
+            </div>
+   
+              
+        </section> 
 
         <div class = "taball">
             <table>
@@ -120,11 +118,8 @@
                 </tbody>     
             </table>
         </div>
-
     </div>
     
-    
-    <div class="bot"></div>
     <footer>
         <img class="imag" src="img/logo.png" alt="Logo Açucar Village">
         &copy; Copyright 2020 açucar village - Todos os direitos reservados.
@@ -133,5 +128,4 @@
     <script type="text/javascript" src="scripts/scrprodutos.js"></script>
 
 </body>
-
 </html>
